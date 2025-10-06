@@ -6,6 +6,7 @@ import { HowItWorks } from "@/components/home/how-it-works"
 import { Stats } from "@/components/home/stats"
 import { Testimonials } from "@/components/home/testimonials"
 import { CTA } from "@/components/home/cta"
+import { LiveActivityNotifications } from "@/components/home/live-activity-notifications"
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <HowItWorks />
       <Testimonials />
       <CTA />
+      <LiveActivityNotifications />
     </div>
   )
 }
