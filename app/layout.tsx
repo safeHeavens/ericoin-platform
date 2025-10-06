@@ -5,9 +5,8 @@ import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
 import { ThemeProvider } from "@/components/theme-provider"
+import { ConditionalLayout } from "@/components/conditional-layout"
 
 export const metadata: Metadata = {
   title: "ERICOIN - Crypto & Stock Copy Trading Platform",
@@ -26,9 +25,7 @@ export default function RootLayout({
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
         <ThemeProvider defaultTheme="light" storageKey="ericoin-theme">
           <Suspense fallback={<div>Loading...</div>}>
-            <Header />
-            <main className="min-h-screen">{children}</main>
-            <Footer />
+            <ConditionalLayout>{children}</ConditionalLayout>
           </Suspense>
           <Analytics />
         </ThemeProvider>
