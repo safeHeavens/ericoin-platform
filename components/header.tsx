@@ -62,7 +62,7 @@ export function Header() {
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-4">
               <ThemeToggle />
-              <Link href="/login">
+              <Link href="https://app.ericoin.online/auth/login">
                 <Button variant="ghost" size="sm">
                   Login
                 </Button>
