@@ -9,3 +9,4 @@ export default function LoginPage() {
 
   return null // optional: you can show a loader if you want
 }
+
