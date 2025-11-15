@@ -35,7 +35,7 @@ export function Hero() {
 
             <ScrollReveal delay={0.4}>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/signup">
+                <Link href="https://onboard.ericoin.online/auth/signup">
                   <Button size="lg" className="w-full sm:w-auto text-base font-semibold group">
                     Start Investing Now
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
