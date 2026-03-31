@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "ericoin.online"
+        }
+      ],
+      "destination": "https://ericoin.site/$1",
+      "permanent": true
+    }
+  ]
+}
