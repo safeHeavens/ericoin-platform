@@ -62,12 +62,12 @@ export function Header() {
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-4">
               <ThemeToggle />
-              <Link href="https://onboard.ericoin.online/auth/signin">
+              <Link href="https://onboard.ericoin.site/auth/signin">
                 <Button variant="ghost" size="sm">
                   Login
                 </Button>
               </Link>
-              <Link href="https://onboard.ericoin.online/auth/signup">
+              <Link href="https://onboard.ericoin.site/auth/signup">
                 <Button size="sm" className="font-semibold">
                   Sign Up
                 </Button>
@@ -76,7 +76,7 @@ export function Header() {
 
             {/* Mobile Menu Button & Sign Up */}
             <div className="flex lg:hidden items-center gap-3">
-              <Link href="https://onboard.ericoin.online/auth/signup">
+              <Link href="https://onboard.ericoin.site/auth/signup">
                 <Button size="sm" className="font-semibold">
                   Sign Up
                 </Button>
@@ -130,12 +130,12 @@ export function Header() {
                 <span className="text-sm font-medium text-foreground/80">Theme</span>
                 <ThemeToggle />
               </div>
-              <Link href="https://onboard.ericoin.online/auth/signin" onClick={() => setMobileMenuOpen(false)}>
+              <Link href="https://onboard.ericoin.site/auth/signin" onClick={() => setMobileMenuOpen(false)}>
                 <Button variant="outline" className="w-full mb-3 bg-transparent">
                   Login
                 </Button>
               </Link>
-              <Link href="https://onboard.ericoin.online/auth/signup" onClick={() => setMobileMenuOpen(false)}>
+              <Link href="https://onboard.ericoin.site/auth/signup" onClick={() => setMobileMenuOpen(false)}>
                 <Button className="w-full font-semibold">Get Started</Button>
               </Link>
             </div>
