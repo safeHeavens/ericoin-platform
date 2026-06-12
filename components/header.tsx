@@ -75,7 +75,6 @@ export function Header() {
             </div>
 
             {/* Mobile Menu Button & Sign Up */}
-            
             <div className="flex lg:hidden items-center gap-3">
               <Link href="https://onboard.ericoin.site/auth/signup">
                 <Button size="sm" className="font-semibold">
@@ -127,6 +126,7 @@ export function Header() {
             </nav>
 
             <div className="mt-8 pt-6 border-t border-border">
+              
               <div className="flex items-center justify-between px-4 py-3 mb-4">
                 <span className="text-sm font-medium text-foreground/80">Theme</span>
                 <ThemeToggle />
@@ -139,6 +139,7 @@ export function Header() {
               <Link href="https://onboard.ericoin.site/auth/signup" onClick={() => setMobileMenuOpen(false)}>
                 <Button className="w-full font-semibold">Get Started</Button>
               </Link>
+              
             </div>
           </div>
         </div>
