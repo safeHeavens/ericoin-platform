@@ -75,6 +75,7 @@ export function Header() {
             </div>
 
             {/* Mobile Menu Button & Sign Up */}
+            
             <div className="flex lg:hidden items-center gap-3">
               <Link href="https://onboard.ericoin.site/auth/signup">
                 <Button size="sm" className="font-semibold">
